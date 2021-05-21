@@ -1,0 +1,107 @@
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #746e8a;
+  color:azure;
+}
+
+.container{
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 70%;
+  height: 300px;
+  
+  display: grid;
+  grid-template-columns: 2.7fr 1.3fr;
+  grid-template-rows: 2fr 2fr;
+  grid-template-areas: "vid bl1"
+                       "vid bl2";
+  grid-gap: 5px;
+
+  justify-content: center;
+  align-content: center;
+
+}  
+
+.youtube{
+  background-color: blueviolet;
+  /* height: 205px; */
+  grid-area: vid;
+}
+
+.bloco1{
+  background-color: rgb(245, 187, 28);
+  /* height: 100px; */
+  grid-area: bl1;
+}
+
+.bloco2{
+  background-color: rgb(76, 12, 139);
+  /* height: 100px; */
+  grid-area: bl2;
+}
+
+.bloco3 {
+  text-align: center;
+}
+
+.navmenu{
+  height: 80px;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #000307;
+  }
+
+.navmenu ul{
+    list-style: none;
+}
+
+.navmenu ul li{
+   display: inline;
+   padding: 20px;
+}
+
+.navmenu ul li a{
+   color: floralwhite;
+   display: inline-block;
+   text-decoration: none;
+ }
+
+.navmenu ul li a:hover {
+background-color: rgb(24, 139, 233);
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(173, 239, 255);
+} */
+/* 
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
